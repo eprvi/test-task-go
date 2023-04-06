@@ -37,10 +37,12 @@ func main() {
 		}
 
 		a, err := strconv.Atoi(spl[0])
+		
 		if err != nil {
 			log.Fatalln(errWrongFormat)
 		}
 		b, err := strconv.Atoi(spl[2])
+		
 		if err != nil {
 			log.Fatalln(errWrongFormat)
 		}
